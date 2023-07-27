@@ -22,6 +22,14 @@ pcEl.innerHTML = "the computer number is: " + randomNum();
 
 // genero una funzione per la generazione randomica del numero scelto dal PC
 
+function randomNum() {
+  const random = Math.floor(Math.random() * 5) + 1;
+
+  return random;
+}
+
+// somma dei risultati per dichiarare il vincitore
+
 function sumNum(val1, val2) {
   const sum = val1 + val2;
 
@@ -35,5 +43,5 @@ if (choice == "even" && finalNum % 2 == 0) {
 } else if (choice == "odd" && finalNum % 2 != 0) {
   resultEl.innerHTML = "you won!!!!";
 } else {
-  resultEl.innerHTML = "you lost. too  bad !!!!! ";
+  resultEl.innerHTML = "you lost. too bad !!!!! ";
 }
