@@ -13,3 +13,11 @@ const choiceEl = document.getElementById("choice");
 const userEl = document.getElementById("user-num");
 const pcEl = document.getElementById("pc-num");
 const resultEl = document.getElementById("result");
+
+// stampo risultati visibili per l'utente
+
+choiceEl.innerHTML = "your choice is: " + choice;
+userEl.innerHTML = "your number is: " + userNum;
+pcEl.innerHTML = "the computer number is: " + randomNum();
+
+// genero una funzione per la generazione randomica del numero scelto dal PC
