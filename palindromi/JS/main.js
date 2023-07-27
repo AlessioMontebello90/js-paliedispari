@@ -4,9 +4,4 @@ const userWord = prompt("choose a word");
 
 const wordL = userWord.length - 1;
 
-function read(val) {
-  for (let i = wordL; i >= 0; i--) {
-    readWord += val[i];
-  }
-  return readWord;
-}
+// generiamo una funzione che riconosca
