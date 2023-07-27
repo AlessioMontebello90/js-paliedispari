@@ -1,8 +1,3 @@
-# Palindroma
-
-Chiedere all'utente di inserire una parola
-Creare una funzione per capire se la parola inserita è palindroma
-
 # Pari e Dispari
 
 L'utente sceglie pari o dispari e inserisce un numero da 1 a 5.
@@ -11,9 +6,9 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 
-## PRECEDIMENTO PARI E DISPARI
+## SVOLGIMENTO PARI E DISPARI
 
-## procedimento
+#
 
 - chiedo all'utente un parametro tra pari dispari
 - chiedo all'utente di inserire un numero da 1 a 5
@@ -23,3 +18,17 @@ Dichiariamo chi ha vinto.
 - **SE** il valore sarà uguale a quello scelto inizialmente dall'utente
   - allora quest'ultimo avrà vinto
   - altrimenti no
+
+# Palindromi
+
+Chiedere all'utente di inserire una parola
+Creare una funzione per capire se la parola inserita è palindroma
+
+## SVOLGIMENTO PALINDROMI
+
+#
+
+- chiedo una parola all'utente da inserire in una variabile
+- genero una funzione che legga la parola lettera per lettera
+
+- la funzione riconoscerà se la parola inserita dall'utente sara legibile da destra verso sinistra e viceversa
